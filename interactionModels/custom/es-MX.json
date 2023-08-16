@@ -1,0 +1,141 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "vocales",
+            "como estás",
+            "di vocales",
+            "di vocal",
+            "vocal"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PrimeravocalldIntent",
+          "samples": [
+            "muestrame palabras con la letra A",
+            "como es la vocal a",
+            "muestra la letra A",
+            "dame la vocal",
+            "dame la primera vocal"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SegundavocalldIntent",
+          "samples": [
+            "muestra palabras con la E",
+            "muestra la letra E",
+            "dame la segunda ",
+            "dame la segunda vocal"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "terceravocalldIntent",
+          "samples": [
+            "muestrame palabras con la letra I",
+            "dame la tercera",
+            "dame la tercera vocal"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "cuartavocaldIntent",
+          "samples": [
+            "muestrame palabras con la letra O",
+            "dame la cuarta",
+            "dame la cuarta vocal"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "mostrarvocalesIntent",
+          "samples": [
+            "como se pronuncian las vocales",
+            "dame las vocales",
+            "muestrame las vocales"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "nombre",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "AgregarnombreIntent",
+          "samples": [
+            "me llamo {nombre}",
+            "Mi nombre es {nombre}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "OracionesIntent",
+          "samples": [
+            "puedes darme ejemplos de oraciones con vocales",
+            "dime oraciones con vocales"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "cuentoIntent",
+          "samples": [
+            "lee un cuento sobre a e i o u",
+            "cuéntame una historia sobre las vocales",
+            "puedes leerme un cuento sobre las vocales",
+            "leeme un cuento sobre las vocales"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AdivinanzaIntent",
+          "samples": [
+            "ultima adivinanza",
+            "siguiente",
+            "dame otra adivinanza",
+            "dime una adivinanza sobre las vocales",
+            "cuentame una adivinanza sobre las vocales"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "respuesta",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "RespuestaAdivinanzaIntent",
+          "samples": [
+            "es {respuesta}",
+            "son {respuesta}",
+            "la {respuesta} es"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "vocales infantil"
+    }
+  }
+}

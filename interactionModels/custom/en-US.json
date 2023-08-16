@@ -1,0 +1,140 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "vowels",
+            "How are you",
+            "say vowels",
+            "say vowel",
+            "vocal"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PrimeravocalldIntent",
+          "samples": [
+            "show me words with the letter A",
+            "as is the vowel a",
+            "show the letter A",
+            "give me the vowel",
+            "give me the first vowel"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SegundavocalldIntent",
+          "samples": [
+            "show words with E",
+            "show the letter E",
+            "give me the second one",
+            "give me the second vowel"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "terceravocalldIntent",
+          "samples": [
+            "show me words with the letter I",
+            "give me the third",
+            "give me the third vowel"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "cuartavocaldIntent",
+          "samples": [
+            "show me words with the letter O",
+            "give me the fourth",
+            "give me the fourth vowel"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "mostrarvocalesIntent",
+          "samples": [
+            "how vowels are pronounced",
+            "give me the vowels",
+            "show me the vowels"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "nombre",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "AgregarnombreIntent",
+          "samples": [
+            "my name is {nombre}",
+            "i am  {nombre}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "OracionesIntent",
+          "samples": [
+            "can you give me examples of sentences with vowels",
+            "tell me sentences with vowels"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "cuentoIntent",
+          "samples": [
+            "read a story about a and i or u",
+            "tell me a story about vowels",
+            "can you read me a story about vowels",
+            "read me a story about vowels"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AdivinanzaIntent",
+          "samples": [
+            "last riddle",
+            "following",
+            "give me another riddle",
+            "Tell me a riddle about the vowels"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "respuesta",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "RespuestaAdivinanzaIntent",
+          "samples": [
+            "is {respuesta}",
+            "are {respuesta}",
+            "the {respuesta} is"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "vocales infantil"
+    }
+  }
+}
